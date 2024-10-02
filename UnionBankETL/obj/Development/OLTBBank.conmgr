@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="OLTBBank"
+  DTS:DTSID="{8228AB2F-99C5-4632-88D2-CF613ACEFDC4}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=.;Initial Catalog=Union_Bank;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-UnionBankETL-{8228AB2F-99C5-4632-88D2-CF613ACEFDC4}LocalHost.Union_Bank;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
